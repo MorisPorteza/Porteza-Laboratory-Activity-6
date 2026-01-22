@@ -13,7 +13,7 @@ abstract class Device {
     }
 
     // This method turns the device ON or OFF
-    // I used static so it can be called even without creating a Device instance
+    // static is used so it can be called even without creating a Device instance
     public static void powerDevices(List<Device> devices, boolean turnOn) {
         for (Device d : devices) {
             if (turnOn) {
@@ -257,3 +257,4 @@ public class SmartHomeMain {
 // Text style generated using: https://boldtext.online/
 // Text art sourced from: https://emojicombos.com/book-text-art
 // Line art sourced from: https://emojicombos.com/border
+
